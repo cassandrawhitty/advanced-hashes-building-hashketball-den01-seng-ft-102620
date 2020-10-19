@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 =begin
 def game_hash 
   {
@@ -7,6 +8,16 @@ def game_hash
       }{:players => [
           {
            :player_name => "Jason Terry",
+=======
+def game_hash 
+  {
+    :home {
+      team_name: "Brooklyn Nets",
+      colors: ["Black", "White"],
+        players: [
+          {
+            :player_name => "Jason Terry",
+>>>>>>> eb1d982c7d76499ea690175547c3c43e1d6840a3
            :number => 31,
            :shoe => 15,
            :points => 19,
@@ -17,6 +28,7 @@ def game_hash
            :slam_dunks => 1
           },
           {
+<<<<<<< HEAD
          :player_name => "Alan Anderson",
          :number => 0,
          :shoe => 16,
@@ -132,12 +144,42 @@ def game_hash
          :steals => 7,
          :blocks => 5,
          :slam_dunks => 12
+=======
+         :player_name => ,
+         :number => ,
+         :shoe => ,
+         :points => ,
+         :rebounds => ,
+         :assists => ,
+         :steals => ,
+         :blocks => ,
+         :slam_dunks => 
+        },
+        ]
+      }
+    }
+    :away {
+      team_name: "Charlotte Hornets",
+      colors: ["Turquiose, Purple"],
+      players: [
+        {
+         :player_name => ,
+         :number => ,
+         :shoe => ,
+         :points => ,
+         :rebounds => ,
+         :assists => ,
+         :steals => ,
+         :blocks => ,
+         :slam_dunks => 
+>>>>>>> eb1d982c7d76499ea690175547c3c43e1d6840a3
         },
         ]
       }
     }
   }
 end
+<<<<<<< HEAD
 =end
 
 def game_hash 
@@ -277,3 +319,5 @@ def game_hash
   }
   }
 end
+=======
+>>>>>>> eb1d982c7d76499ea690175547c3c43e1d6840a3
